@@ -1,8 +1,8 @@
 package view;
 
-import interface_adapter.SignupController;
-import interface_adapter.SignupViewModel;
-import use_case.SignupInputBoundary;
+import interface_adapter.signup.SignupController;
+import interface_adapter.signup.SignupViewModel;
+import use_case.signup.SignupInputBoundary;
 
 import javax.swing.*;
 import java.awt.event.KeyEvent;
