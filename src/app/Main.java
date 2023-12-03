@@ -12,6 +12,7 @@ import view.LoginView;
 import view.SignupView;
 import view.ViewManager;
 
+import javax.security.auth.login.AppConfigurationEntry;
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
@@ -64,5 +65,6 @@ public class Main {
 
         application.pack();
         application.setVisible(true);
+
     }
 }
